@@ -235,6 +235,9 @@ span {
 }
 
 @media (max-width: 576px) {
+    *{
+        font-size: 12px;
+    }
     .header-wrapper {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -242,7 +245,6 @@ span {
     
     .info-box {
         min-width: 100%;
-        font-size: 14px;
     }
     
     .info-list {
@@ -250,9 +252,6 @@ span {
         margin: 0;
     }
     
-    .info-list > li {
-        padding: 8px;
-    }
     
     .skills span, .Language span, .aboutMe span {
         display: block;
